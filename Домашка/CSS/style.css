@@ -1,0 +1,151 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left__container{
+  width: 33.3%;
+  height: 100vh;
+  background-color:#fff;
+}
+
+.left__head{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.left__head_title{
+  padding-left: 25px;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-right: 100px;
+  font-weight: 600;
+}
+
+.left__img{
+  width: 65px;
+  margin-top: 50px;
+}
+
+.left__contact{
+  display: flex;
+  justify-content: center;
+  margin-right: 70px;
+  margin-top: 35px;
+}
+
+.contack__table td:nth-child(even){
+  padding-left: 40px;
+  opacity: 0.7;
+}
+
+.contack__table td:nth-child(odd){
+  font-weight: 600;
+}
+
+.contact__table_word{
+  color: rgb(245, 96, 121);
+}
+
+.left__title{
+  max-width: 70%;
+  text-align: center;
+  margin-top: 160px;
+  padding: 0 100px;
+}
+
+.left__title_word{
+  font-weight: 700;
+}
+
+.left__bot{
+  display: flex;
+  max-width: 50%;
+  padding: 0 110px;
+  margin-top: 300px;
+}
+
+.left__bot_table td:nth-child(even){
+  padding-left: 25px;
+  color: rgb(247, 150, 166);
+}
+
+.left__bot_table td:nth-child(odd){
+  font-weight: 600;
+}
+
+.right__container{
+  width: 66.6%;
+  height: 100vh;
+  background-color: rgba(153, 151, 151, 0.89);
+}
+
+.right__head{
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(88, 255, 255, 0.932);
+  margin-top: 65px;
+  margin-left: 75px;
+}
+
+.right__title{
+  max-width: 50%;
+  margin-top: 50px;
+  margin-left: 75px;
+}
+
+.title_words{
+  color: #fff;
+}
+
+.title_words td:nth-child(2){
+  padding-right: 20px;
+}
+
+.right__title_title{
+  max-width: 50%;
+  margin-top: 50px;
+  margin-left: 75px;
+}
+
+.right__title_table{
+    display: block;
+    margin-top: 50px;
+}
+
+.right__title_word{
+  color: red;
+}
+
+.right__bot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_bot_right{
+  max-width: 50%;
+ }
+
+ .right__bot_left p{
+   margin-right: 870px;
+   font-size: 28px;
+   font-weight: 600;
+   color: rgba(88, 255, 255, 0.932);
+   text-transform: uppercase;
+ }
+
+
+
+
+
+
+.right__bot_right{
+  max-width: 50%;
+  
+}
